@@ -1,12 +1,12 @@
-//let producto1 = promt("Ingrese un Producto");
-//let producto1Stock: number =Number(promt("Ingrese Stock de Producto"));
-//let producto1Precio: number =Number(promt("Ingrese Precio de Producto"));
-//let producto2 = promt("Ingrese un Producto");
-//let producto2Stock: number =Number(promt("Ingrese Stock de Producto"));
-//let producto2Precio: number =Number(promt("Ingrese Precio de Producto"));
-//let producto3 = promt("Ingrese un Producto");
-//let producto3Stock: number =Number(promt("Ingrese Stock de Producto"));
-//let producto3Precio: number =Number(promt("Ingrese Precio de Producto"));
+let producto1 = prompt("Ingrese un Producto");
+let producto1Stock: number = Number(prompt("Ingrese Stock de Producto"));
+let producto1Precio: number = Number(prompt("Ingrese Precio de Producto"));
+let producto2 = prompt("Ingrese un Producto");
+let producto2Stock: number = Number(prompt("Ingrese Stock de Producto"));
+let producto2Precio: number = Number(prompt("Ingrese Precio de Producto"));
+let producto3 = prompt("Ingrese un Producto");
+let producto3Stock: number = Number(prompt("Ingrese Stock de Producto"));
+let producto3Precio: number = Number(prompt("Ingrese Precio de Producto"));
 
 console.log("BIENVENIDO AL MERCADO ENZO");
 console.log("==========================");
@@ -36,8 +36,14 @@ console.log(
     producto3Precio
 );
 
-//let productoSeleccionado: number = Number(promt("Ingrese 1 para Comprar Gaseosa,Ingrese 2 para comprar Galletitas,Ingrese 3 para comprar Azucar"));
-//let cantProducto: number = Number(promt("Ingrese la cantidad que desea comprar");
+let productoSeleccionado: number = Number(
+  prompt(
+    "Ingrese 1 para Comprar Gaseosa,Ingrese 2 para comprar Galletitas,Ingrese 3 para comprar Azucar"
+  )
+);
+let cantProducto: number = Number(
+  prompt("Ingrese la cantidad que desea comprar")
+);
 
 if (productoSeleccionado === 1) {
   console.log(" Selecciono Gaseosa su precio es: " + producto1Precio);
