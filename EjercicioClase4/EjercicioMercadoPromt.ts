@@ -57,3 +57,4 @@ if (productoSeleccionado === 1) {
 } else {
   console.log("El producto seleccionado no esta disponible");
 }
+
