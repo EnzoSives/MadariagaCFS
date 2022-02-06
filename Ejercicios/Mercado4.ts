@@ -1,4 +1,5 @@
-let producto1:string = prompt("Ingrese el primer producto");
+
+alet producto1:string = prompt("Ingrese el primer producto");
 let precioProducto1:number = Number(prompt("Ingrese el precio del primer producto"));
 let stockProducto1:number = Number(prompt("Ingrese el stock del primer producto"));
 
